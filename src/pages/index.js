@@ -1,8 +1,5 @@
 // import Head from "next/head";
 import { Box, Container, Grid } from '@mui/material';
-// import { Budget } from '../components/dashboard/budget';
-// import { TasksProgress } from '../components/dashboard/tasks-progress';
-// import { TotalCustomers } from '../components/dashboard/total-customers';
 
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
@@ -15,9 +12,8 @@ import {
   CardMedia,
   Typography,
   Link,
-  Button,
 } from '@mui/material';
-import profileImg from '../data/nata_photo.jpg';
+// import profileImg from '../Data/nata_photo.jpg';
 
 const Dashboard = () => (
   <>
@@ -31,28 +27,10 @@ const Dashboard = () => (
     >
       <Container maxWidth="md">
         <Grid item spacing={2}>
-          <Grid item xs={2}>
-            {/* <TotalProfit sx={{ height: "100%" }} /> */}
-            <Grid item lg={3} sm={3} xl={3} xs={6}>
-              {/* <Budget /> */}
-              {/* <Budget /> */}
-            </Grid>
-            {/* <CardActions>
-              <Button size="small">Share</Button>
-              <Button size="small">Learn More</Button>
-            </CardActions> */}
-          </Grid>
-          <Grid xl={3} lg={3} sm={6} xs={12}>
-            {/* <TotalCustomers /> */}
-          </Grid>
-          <Grid item xl={3} lg={3} sm={6} xs={12}>
-            {/* <TasksProgress sx={{ height: '20%' }} /> */}
-          </Grid>
-
           <Grid display="flex" justifyContent="center" alignItems="center">
             <Box>
-              <Card sx={{ maxWidth: 300 }}>
-                <CardMedia component="img" height="200" image={profileImg} />
+              <Card sx={{ maxwidth: 300 }}>
+                <CardMedia />
                 <CardContent>
                   <Typography gutterBottom variant="h7" component="div">
                     Natalia Garcia
@@ -117,13 +95,6 @@ const Dashboard = () => (
                 </Grid>
               </Card>
             </Box>
-          </Grid>
-          <Grid item lg={4} md={6} xl={3} xs={12}></Grid>
-          <Grid item lg={4} md={6} xl={3} xs={12}>
-            {/* <LatestProducts sx={{ height: "100%" }} /> */}
-          </Grid>
-          <Grid item lg={8} md={12} xl={9} xs={12}>
-            {/* <LatestOrders /> */}
           </Grid>
         </Grid>
       </Container>

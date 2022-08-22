@@ -7,11 +7,11 @@ import {
   Typography,
   Stack,
 } from '@mui/material';
-import { photosBogota } from '../__mocks__/photosBogota';
-import { ProductListToolbar } from '../components/product/product-list-toolbar';
-import { ProductCard } from '../components/product/product-card';
+import { photosBogota } from '../data/photosColombia';
+import { ProductListToolbar } from '../components/photo/photo-list-toolbar';
+import { ProductCard } from '../components/photo/photo-card';
 // import { DashboardLayout } from "../components/dashboard-layout";
-import usePagination from './Pagination';
+import usePagination from './pagination';
 
 const PhotosCol = (props) => {
   let [page, setPage] = useState(1);
@@ -74,7 +74,7 @@ const PhotosCol = (props) => {
           <Box
             sx={{
               display: 'flex',
-              justifyContent: 'center',
+               justifycontent: 'center',
               pt: 5,
             }}
           >

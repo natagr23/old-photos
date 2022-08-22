@@ -21,6 +21,7 @@ import { ListItemAvatar, Button } from '@mui/material';
 import HomeIcon from '@mui/icons-material/Home';
 
 import { Link } from 'react-router-dom';
+import PhotosCol from '../../pages/PhotosCol';
 
 const drawerWidth = 240;
 
@@ -30,43 +31,43 @@ function ResponsiveDrawer(props) {
       id: 1,
       name: 'Bogota',
       imageUrl: 'https://source.unsplash.com/1600x900/?bogota',
-      go: '../pages/photoscol',
+      go: '../../pages/PhotosCol',
     },
     {
       id: 2,
       name: 'Medellin',
       imageUrl: 'https://source.unsplash.com/1600x900/?medellin',
-      go: '../pages/account',
+      go: '../../pages/PhotosCol',
     },
     {
       id: 3,
       name: 'Villavicencio',
       imageUrl: 'https://source.unsplash.com/1600x900/?villavicencio',
-      go: '../pages/photoscol',
+      go: '../../pages/PhotosCol',
     },
     {
       id: 4,
       name: 'Barranquilla',
       imageUrl: 'https://source.unsplash.com/1600x900/?barranquilla',
-      go: '../pages/account',
+      go: '../../pages/PhotosCol',
     },
     {
       id: 5,
       name: 'Pasto',
       imageUrl: 'https://source.unsplash.com/1600x900/?pasto',
-      go: '../pages/photoscol',
+      go: '../../pages/PhotosCol',
     },
     {
       id: 6,
       name: 'Buenaventura',
       imageUrl: 'https://source.unsplash.com/1600x900/?buenaventura',
-      go: '../pages/account',
+      go: '../../pages/PhotosCol',
     },
     {
       id: 7,
       name: 'Ibague',
       imageUrl: 'https://source.unsplash.com/1600x900/?ibague',
-      go: '../pages/photoscol',
+      go: '../../pages/PhotosCol',
     },
   ];
   const { window } = props;
@@ -106,15 +107,15 @@ function ResponsiveDrawer(props) {
               to={city.go}
               // onClick={city.go}
               display="flex"
-              justifyContent="center"
+              justifycontent="center"
               alignItems="center"
-              minHeight="5vh"
-              maxWidth="50"
+              minheight="5vh"
+              maxwidth="50"
               sx={{
                 background: 'rgb(255, 246, 241)',
                 borderRadius: '4%',
-                minHeight: 48,
-                // justifyContent: open ? "initial" : "center",
+                minheight: 48,
+                //  justifycontent: open ? "initial" : "center",
                 px: 2.5,
               }}
             >
