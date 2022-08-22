@@ -14,6 +14,9 @@ import {
   Link,
 } from '@mui/material';
 // import profileImg from '../Data/nata_photo.jpg';
+import IconButton from '@mui/material/IconButton';
+
+import { ContactUs } from '../pages/ContactUs';
 
 const Dashboard = () => (
   <>
@@ -32,9 +35,6 @@ const Dashboard = () => (
               <Card sx={{ maxwidth: 300 }}>
                 <CardMedia />
                 <CardContent>
-                  <Typography gutterBottom variant="h7" component="div">
-                    Natalia Garcia
-                  </Typography>
                   <Typography variant="body2" color="text.secondary">
                     My name is Natalia Garcia, I love Web programming. I work
                     with React js, MUI, Javascript, HTML5 and CSS. I studied a
@@ -97,6 +97,9 @@ const Dashboard = () => (
             </Box>
           </Grid>
         </Grid>
+        <IconButton color="secondary" size="small" component={Link}>
+          <ContactUs />
+        </IconButton>
       </Container>
     </Box>
   </>

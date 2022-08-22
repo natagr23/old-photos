@@ -12,6 +12,7 @@ import { ProductListToolbar } from '../components/photo/photo-list-toolbar';
 import { ProductCard } from '../components/photo/photo-card';
 // import { DashboardLayout } from "../components/dashboard-layout";
 import usePagination from './pagination';
+import useAnalyticsEventTracker from '../data/useAnalyticsEventTracker';
 
 const PhotosCol = (props) => {
   let [page, setPage] = useState(1);
@@ -74,7 +75,7 @@ const PhotosCol = (props) => {
           <Box
             sx={{
               display: 'flex',
-               justifycontent: 'center',
+              justifycontent: 'center',
               pt: 5,
             }}
           >

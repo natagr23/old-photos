@@ -21,7 +21,6 @@ import { ListItemAvatar, Button } from '@mui/material';
 import HomeIcon from '@mui/icons-material/Home';
 
 import { Link } from 'react-router-dom';
-import PhotosCol from '../../pages/PhotosCol';
 
 const drawerWidth = 240;
 
