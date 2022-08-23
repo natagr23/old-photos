@@ -333,9 +333,94 @@ export const photosBogota = [
   {
     id: 34,
     title:
-      'In Bogotá, 1934/1937.View of a street in Bogotá.Vista de una calle de Bogotá.',
+      'Am Monserrate, 1934/1937.Mountain railroad at Monserrate.Funicular en Bogotá.',
     media:
-      'https://fotothek.slub-dresden.de/fotos/dd/ses-hm/0000000/dd_ses-hm_0000210_001.jpg',
-    metadata: 'https://www.deutschefotothek.de/documents/obj/71671099',
+      'https://fotothek.slub-dresden.de/fotos/dd/ses-hm/0000000/dd_ses-hm_0000028_004.jpg',
+    metadata: 'https://www.deutschefotothek.de/documents/obj/71630412',
+  },
+  {
+    id: 34.1,
+    title:
+      'Am Monserrate, 1934/1937.Mountain railroad at Monserrate.Funicular en Bogotá.',
+    media:
+      'https://fotothek.slub-dresden.de/fotos/dd/ses-hm/0000000/dd_ses-hm_0000030_002.jpg',
+    metadata: 'https://www.deutschefotothek.de/documents/obj/71630489',
+  },
+  {
+    id: 34.2,
+    title:
+      'Am Monserrate, 1934/1937.Mountain railroad at Monserrate.Funicular en Bogotá.',
+    media:
+      'https://fotothek.slub-dresden.de/fotos/dd/ses-hm/0000000/dd_ses-hm_0000028_002.jpg',
+    metadata: 'https://www.deutschefotothek.de/documents/obj/71630414',
+  },
+  {
+    id: 34.3,
+    title:
+      'Am Monserrate, 1934/1937.Landscape at Monserrate.Paisaje en Monserrate.',
+    media:
+      'https://fotothek.slub-dresden.de/fotos/dd/ses-hm/0000000/dd_ses-hm_0000029_014.jpg',
+    metadata: 'https://www.deutschefotothek.de/documents/obj/71630440',
+  },
+  {
+    id: 34.4,
+    title:
+      'Am Monserrate, 1934/1937.Inhabitants of the Monserrate.Habitantes de Monserrate.',
+    media:
+      'https://fotothek.slub-dresden.de/fotos/dd/ses-hm/0000000/dd_ses-hm_0000030_028.jpg',
+    metadata: 'https://www.deutschefotothek.de/documents/obj/71630463',
+  },
+  {
+    id: 34.5,
+    title:
+      'Am Monserrate, 1934/1937.Inhabitants of the Monserrate.Habitantes de Monserrate.',
+    media:
+      'https://fotothek.slub-dresden.de/fotos/dd/ses-hm/0000000/dd_ses-hm_0000030_019.jpg',
+    metadata: 'https://www.deutschefotothek.de/documents/obj/71630472',
+  },
+  {
+    id: 34.6,
+    title:
+      'Basílica del Señor de Monserrate, 1934/1937.Basilica of the Lord of Monserrate.Basílica del Señor de Monserrate.',
+    media:
+      'https://fotothek.slub-dresden.de/fotos/dd/ses-hm/0000000/dd_ses-hm_0000029_012.jpg',
+    metadata: 'https://www.deutschefotothek.de/documents/obj/71630442',
+  },
+  {
+    id: 35,
+    title:
+      'Am Monserrate, 1934/1937.Fountain at the foot of Monserrate.Fuente en la base de Monserrate.',
+    media:
+      'https://fotothek.slub-dresden.de/fotos/dd/ses-hm/0000000/dd_ses-hm_0000029_023.jpg',
+    metadata: 'https://www.deutschefotothek.de/documents/obj/71630431',
+  },
+  {
+    id: 35.1,
+    title: 'Am Monserrate, 1934/1937.View over Bogotá.Vista de Bogotá.',
+    media:
+      'https://fotothek.slub-dresden.de/fotos/dd/ses-hm/0000000/dd_ses-hm_0000030_027.jpg',
+    metadata: 'https://www.deutschefotothek.de/documents/obj/71630464',
+  },
+  {
+    id: 36,
+    title: 'In Bogotà, 1934/1937.Ferris wheel in Bogotá.Ferri en Bogotá.',
+    media:
+      'https://fotothek.slub-dresden.de/fotos/dd/ses-hm/0000000/dd_ses-hm_0000029_005.jpg',
+    metadata: 'https://www.deutschefotothek.de/documents/obj/71630449',
+  },
+  {
+    id: 37,
+    title: 'In Bogotà, 1934/1937.Ferris wheel in Bogotá.Ferri en Bogotá.',
+    media:
+      'https://fotothek.slub-dresden.de/fotos/dd/ses-hm/0000000/dd_ses-hm_0000016_031.jpg',
+    metadata: 'https://www.deutschefotothek.de/documents/obj/71629965',
+  },
+  {
+    id: 38,
+    title:
+      'Road to Engativá, 1934/1937.Children with a kettle on the street.Niños con una olla en la calle.',
+    media:
+      'https://fotothek.slub-dresden.de/fotos/dd/ses-hm/0000000/dd_ses-hm_0000038_028.jpg',
+    metadata: 'https://www.deutschefotothek.de/documents/obj/71630761',
   },
 ];

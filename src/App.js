@@ -4,7 +4,7 @@ import PhotosCol from './pages/PhotosCol';
 import Dashboard from './pages/index';
 import DashboardSidebar from './components/dashboard/sidebar';
 import ReactGA from 'react-ga';
-const TRACKING_ID = 'G-884HZWW40Y'; // OUR_TRACKING_ID
+const TRACKING_ID = 'UA-213805435-1'; // OUR_TRACKING_ID
 ReactGA.initialize(TRACKING_ID);
 
 function App() {
