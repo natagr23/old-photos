@@ -3,14 +3,14 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import PhotosCol from './pages/PhotosCol';
 import Dashboard from './pages/index';
 import DashboardSidebar from './components/dashboard/sidebar';
-import ReactGA from 'react-ga';
-const TRACKING_ID = '3987361304'; // OUR_TRACKING_ID
-ReactGA.initialize(TRACKING_ID);
+// import ReactGA from 'react-ga';
+// const TRACKING_ID = '327409853'; // OUR_TRACKING_ID
+// ReactGA.initialize(TRACKING_ID);
 
 function App() {
-  useEffect(() => {
-    ReactGA.pageview(window.location.pathname + window.location.search);
-  }, []);
+  // useEffect(() => {
+  //   ReactGA.pageview(window.location.pathname + window.location.search);
+  // }, []);
   return (
     <BrowserRouter>
       <DashboardSidebar />
