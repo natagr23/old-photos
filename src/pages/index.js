@@ -97,9 +97,9 @@ const Dashboard = () => (
             </Box>
           </Grid>
         </Grid>
-        <IconButton color="secondary" size="small" component={Link}>
+        {/* <IconButton color="secondary" size="small" component={Link}>
           <ContactUs />
-        </IconButton>
+        </IconButton> */}
       </Container>
     </Box>
   </>

@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React, { useState } from 'react';
 
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
@@ -22,6 +22,7 @@ import HomeIcon from '@mui/icons-material/Home';
 
 import { Link } from 'react-router-dom';
 
+
 const drawerWidth = 240;
 
 function ResponsiveDrawer(props) {
@@ -40,37 +41,43 @@ function ResponsiveDrawer(props) {
     },
     {
       id: 3,
+      name: 'Tunja',
+      imageUrl: 'https://source.unsplash.com/1600x900/?tunja',
+      go: '../../pages/PhotosCol',
+    },
+    {
+      id: 4,
       name: 'Villavicencio',
       imageUrl: 'https://source.unsplash.com/1600x900/?villavicencio',
       go: '../../pages/PhotosCol',
     },
     {
-      id: 4,
+      id: 5,
       name: 'Barranquilla',
       imageUrl: 'https://source.unsplash.com/1600x900/?barranquilla',
       go: '../../pages/PhotosCol',
     },
     {
-      id: 5,
+      id: 6,
       name: 'Pasto',
       imageUrl: 'https://source.unsplash.com/1600x900/?pasto',
       go: '../../pages/PhotosCol',
     },
     {
-      id: 6,
+      id: 7,
       name: 'Buenaventura',
       imageUrl: 'https://source.unsplash.com/1600x900/?buenaventura',
       go: '../../pages/PhotosCol',
     },
     {
-      id: 7,
+      id: 8,
       name: 'Ibague',
       imageUrl: 'https://source.unsplash.com/1600x900/?ibague',
       go: '../../pages/PhotosCol',
     },
   ];
   const { window } = props;
-  const [mobileOpen, setMobileOpen] = React.useState(false);
+  const [mobileOpen, setMobileOpen] = useState(false);
 
   const handleDrawerToggle = () => {
     setMobileOpen(!mobileOpen);
