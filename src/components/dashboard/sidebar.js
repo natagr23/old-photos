@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
@@ -6,78 +6,26 @@ import CssBaseline from '@mui/material/CssBaseline';
 import Divider from '@mui/material/Divider';
 import Drawer from '@mui/material/Drawer';
 import IconButton from '@mui/material/IconButton';
-
 import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton';
-
 import ListItemText from '@mui/material/ListItemText';
-
 import MenuIcon from '@mui/icons-material/Menu';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import { ListItemAvatar, Button } from '@mui/material';
-
 import HomeIcon from '@mui/icons-material/Home';
-
 import { Link } from 'react-router-dom';
+import { Context } from '../../context/Context';
 
+import cities from '../../data/cities.json';
 
 const drawerWidth = 240;
 
 function ResponsiveDrawer(props) {
-  const cities = [
-    {
-      id: 1,
-      name: 'Bogota',
-      imageUrl: 'https://source.unsplash.com/1600x900/?bogota',
-      go: '../../pages/PhotosCol',
-    },
-    {
-      id: 2,
-      name: 'Medellin',
-      imageUrl: 'https://source.unsplash.com/1600x900/?medellin',
-      go: '../../pages/PhotosCol',
-    },
-    {
-      id: 3,
-      name: 'Tunja',
-      imageUrl: 'https://source.unsplash.com/1600x900/?tunja',
-      go: '../../pages/PhotosCol',
-    },
-    {
-      id: 4,
-      name: 'Villavicencio',
-      imageUrl: 'https://source.unsplash.com/1600x900/?villavicencio',
-      go: '../../pages/PhotosCol',
-    },
-    {
-      id: 5,
-      name: 'Barranquilla',
-      imageUrl: 'https://source.unsplash.com/1600x900/?barranquilla',
-      go: '../../pages/PhotosCol',
-    },
-    {
-      id: 6,
-      name: 'Pasto',
-      imageUrl: 'https://source.unsplash.com/1600x900/?pasto',
-      go: '../../pages/PhotosCol',
-    },
-    {
-      id: 7,
-      name: 'Buenaventura',
-      imageUrl: 'https://source.unsplash.com/1600x900/?buenaventura',
-      go: '../../pages/PhotosCol',
-    },
-    {
-      id: 8,
-      name: 'Ibague',
-      imageUrl: 'https://source.unsplash.com/1600x900/?ibague',
-      go: '../../pages/PhotosCol',
-    },
-  ];
   const { window } = props;
   const [mobileOpen, setMobileOpen] = useState(false);
+  const ctx = useContext(Context);
 
   const handleDrawerToggle = () => {
     setMobileOpen(!mobileOpen);
@@ -106,8 +54,8 @@ function ResponsiveDrawer(props) {
           background: '#6b34a6',
         }}
       >
-        {cities.map((city, i) => (
-          <ListItem divider={i < cities.length - 1} key={city.id}>
+        {ctx.cities.map((city, i) => (
+          <ListItem divider={i < ctx.cities.length - 1} key={city.id}>
             <ListItemButton
               component={Link}
               to={city.go}

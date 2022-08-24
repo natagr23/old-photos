@@ -4,23 +4,21 @@ import PhotosCol from './pages/PhotosCol';
 import Dashboard from './pages/index';
 import DashboardSidebar from './components/dashboard/sidebar';
 import { Outlet } from 'react-router-dom';
-// import ReactGA from 'react-ga';
-// const TRACKING_ID = '327409853'; // OUR_TRACKING_ID
-// ReactGA.initialize(TRACKING_ID);
+
+import { ContextProvider } from './context/Context';
 
 function App() {
-  // useEffect(() => {
-  //   ReactGA.pageview(window.location.pathname + window.location.search);
-  // }, []);
   return (
     <BrowserRouter>
-      <DashboardSidebar />
-      <Routes>
-        <Route path="/" element={[<Dashboard />, <PhotosCol />]} />
-        <Route path="/pages/index" element={[<Dashboard />, <PhotosCol />]} />
-        <Route path="/pages/photoscol" element={<PhotosCol />} />
-      </Routes>
-      <Outlet />
+      <ContextProvider>
+        <DashboardSidebar />
+        <Routes>
+          <Route path="/" element={[<Dashboard />, <PhotosCol />]} />
+          <Route path="/pages/index" element={[<Dashboard />, <PhotosCol />]} />
+          <Route path="/pages/photoscol" element={<PhotosCol />} />
+        </Routes>
+        <Outlet />
+      </ContextProvider>
     </BrowserRouter>
   );
 }
