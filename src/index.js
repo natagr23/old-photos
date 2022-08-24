@@ -17,10 +17,9 @@ root.render(
 // (async () => {
 //   await ga4react.initialize();
 
-//   ReactDOM.render(
+//   root.render(
 //     <React.StrictMode>
 //       <App />
-//     </React.StrictMode>,
-//     document.getElementById('root')
+//     </React.StrictMode>
 //   );
 // })();

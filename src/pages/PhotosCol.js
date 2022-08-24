@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useLocation } from 'react';
 import {
   Box,
   Container,
@@ -12,8 +12,16 @@ import { ProductListToolbar } from '../components/photo/photo-list-toolbar';
 import { ProductCard } from '../components/photo/photo-card';
 // import { DashboardLayout } from "../components/dashboard-layout";
 import usePagination from './pagination';
+import ReactGA from 'react-ga';
 
 const PhotosCol = (props) => {
+  useEffect(() => {
+    ReactGA.initialize('G-884HZWW40Y');
+    ReactGA.send({ hitType: 'pageview', page: window.location.pathname });
+  }, []);
+  // useEffect(() => {
+  //   ReactGA.pageview(window.location.pathname + window.location.search);
+  // });
   let [page, setPage] = useState(1);
 
   const PER_PAGE = 9;

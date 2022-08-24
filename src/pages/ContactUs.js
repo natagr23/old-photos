@@ -7,7 +7,7 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import { Link, Box } from '@mui/material';
 
-import useAnalyticsEventTracker from '../data/useAnalyticsEventTracker';
+import useAnalyticsEventTracker from '../data/RouteChangeTracker';
 
 export const ContactUs = () => {
   const gaEventTracker = useAnalyticsEventTracker('Contact us');
