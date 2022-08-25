@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useLocation } from 'react';
+import React, { useState, useContext } from 'react';
 import {
   Box,
   Container,
@@ -7,37 +7,26 @@ import {
   Typography,
   Stack,
 } from '@mui/material';
-import { photosBogota } from '../data/photosColombia';
-import { ProductListToolbar } from '../components/photo/photo-list-toolbar';
+import photosBogota from '../data/photosBogota.json';
+import { ProductListToolbar } from '../components/photo/photo-title';
 import { ProductCard } from '../components/photo/photo-card';
-// import { DashboardLayout } from "../components/dashboard-layout";
 import usePagination from './pagination';
-// import ReactGA from 'react-ga';
+import { Context } from '../context/Context';
 
 const PhotosCol = (props) => {
-  // useEffect(() => {
-  //   ReactGA.initialize('G-884HZWW40Y');
-  //   ReactGA.send({ hitType: 'pageview', page: window.location.pathname });
-  // }, []);
-  // useEffect(() => {
-  //   ReactGA.pageview(window.location.pathname + window.location.search);
-  // });
+  const ctx = useContext(Context);
+
   let [page, setPage] = useState(1);
 
   const PER_PAGE = 9;
 
-  const count = Math.ceil(photosBogota.length / PER_PAGE);
-  const _DATA = usePagination(photosBogota, PER_PAGE);
+  const count = Math.ceil(ctx.photos.length / PER_PAGE);
+  const _DATA = usePagination(ctx.photos, PER_PAGE);
 
-  const handleChange = (event, value) => {
-    setPage(value);
-    _DATA.jump(value);
+  const handleChange = (event, page) => {
+    setPage(page);
+    _DATA.jump(page);
   };
-
-  // const handleChange = (e, p) => {
-  //   setPage(p);
-  //   _DATA.jump(p);
-  // };
 
   return (
     <>

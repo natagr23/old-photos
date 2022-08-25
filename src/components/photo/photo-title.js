@@ -16,7 +16,8 @@ export const ProductListToolbar = () => {
       }}
     >
       <Typography sx={{ m: 1 }} variant="h5">
-        Historical Photos from {`${ctx.name}`} - Fotos Históricas de Bogotá
+        Historical Photos from {`${ctx.name}`} - Fotos Históricas de{' '}
+        {`${ctx.name}`}
       </Typography>
     </Box>
   );
