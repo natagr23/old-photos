@@ -59,7 +59,7 @@ function ResponsiveDrawer(props) {
             <ListItemButton
               component={Link}
               to={city.go}
-              // onClick={city.go}
+              onClick={ctx.callCity}
               display="flex"
               justifycontent="center"
               alignItems="center"

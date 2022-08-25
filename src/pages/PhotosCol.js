@@ -12,13 +12,13 @@ import { ProductListToolbar } from '../components/photo/photo-list-toolbar';
 import { ProductCard } from '../components/photo/photo-card';
 // import { DashboardLayout } from "../components/dashboard-layout";
 import usePagination from './pagination';
-import ReactGA from 'react-ga';
+// import ReactGA from 'react-ga';
 
 const PhotosCol = (props) => {
-  useEffect(() => {
-    ReactGA.initialize('G-884HZWW40Y');
-    ReactGA.send({ hitType: 'pageview', page: window.location.pathname });
-  }, []);
+  // useEffect(() => {
+  //   ReactGA.initialize('G-884HZWW40Y');
+  //   ReactGA.send({ hitType: 'pageview', page: window.location.pathname });
+  // }, []);
   // useEffect(() => {
   //   ReactGA.pageview(window.location.pathname + window.location.search);
   // });
