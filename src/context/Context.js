@@ -24,18 +24,32 @@ export const ContextProvider = (props) => {
   //   return selected_product;
   // });
   // console.log(selected_place.name, selected_place.place);
-  const callCity = (city) => {
-    filteredData.map((city_id) => {
-      if (city_id == city.id) {
-        return console.log(city.name);
-      }
+  const callCity = (city_id) => {
+    let selected_city = cities.find((city) => {
+      // return city.id === city_id;
+      return city_id.name;
     });
+    console.log(selected_city);
+  };
+
+  const OnSelectCity = (city_id) => {
+    //search selected Product from user using id, retorna el producto donde cumpla con ese id
+    let selected_city = cities.find((city) => {
+      return city_id;
+    });
+
+    // let selected_city2 = cities.find((provider) => {
+    //   return provider.id === selected_city.id;
+    // });
+    // console.log('desde productList', city_id.name);
+    console.log(selected_city.name);
+    // setShowProduct(true);
   };
 
   return (
     <Context.Provider
       value={{
-        callCity: callCity,
+        OnSelectCity: OnSelectCity,
         cities: cities,
         photosBogota: photosBogota,
         // SelectPhotosBogota: SelectPhotosBogota,
