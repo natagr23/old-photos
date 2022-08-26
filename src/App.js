@@ -10,7 +10,7 @@ import { ContextProvider } from './context/Context';
 
 import { createBrowserHistory } from 'history';
 import ReactGA from 'react-ga';
-// ReactGA.initialize('G-884HZWW40Y');
+
 ReactGA.initialize('G-884HZWW40Y');
 const browserHistory = createBrowserHistory();
 browserHistory.listen((location, action) => {
