@@ -8,6 +8,7 @@ import photosBarranquilla from '../data/photosBarranquilla.json';
 import photosPasto from '../data/photosPasto.json';
 import photosBuenaventura from '../data/photosBuenaventura.json';
 import photosIbague from '../data/photosIbague.json';
+import photosChoachi from '../data/photosChoachi.json';
 import citiesData from '../data/cities.json';
 
 export const Context = createContext({});
@@ -27,6 +28,7 @@ export const ContextProvider = (props) => {
     name === 'Buenaventura' && setPhotos(photosBuenaventura);
     name === 'Ibague' && setPhotos(photosIbague);
     name === 'Bogota' && setPhotos(photosBogota);
+    name === 'Choachi' && setPhotos(photosChoachi);
     // console.log(name);
   };
 
