@@ -15,7 +15,7 @@ export const Context = createContext({});
 
 export const ContextProvider = (props) => {
   const [name, setName] = useState('Bogota');
-  const [cities, setCities] = useState(citiesData);
+  const [cities] = useState(citiesData);
   const [photos, setPhotos] = useState(photosBogota);
 
   const getArrName = (name) => {

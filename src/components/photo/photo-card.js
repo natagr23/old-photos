@@ -15,7 +15,7 @@ import {
 import CopyrightIcon from '@mui/icons-material/Copyright';
 import LinkIcon from '@mui/icons-material/Link';
 import Link from '@mui/material/Link';
-import { CardMedia, Modal, Button, Toolbar, AppBar } from '@mui/material';
+import { CardMedia, Modal, Toolbar } from '@mui/material';
 import OpenInFullIcon from '@mui/icons-material/OpenInFull';
 import CloseIcon from '@mui/icons-material/Close';
 
