@@ -58,7 +58,7 @@ function ResponsiveDrawer(props) {
           <ListItem divider={i < ctx.cities.length - 1} key={city.id}>
             <ListItemButton
               // key={city.id}
-              cities={cities}
+              // cities={cities}
               component={Link}
               to={city.go}
               onClick={() => ctx.getArrName(city.name)}

@@ -32,14 +32,14 @@ export const ContextProvider = (props) => {
     // console.log(name);
   };
 
-  const callPhotos = (photo) => {
-    setPhotos(photo.photos);
-  };
+  // const callPhotos = (photo) => {
+  //   setPhotos(photo.photos);
+  // };
 
   return (
     <Context.Provider
       value={{
-        callPhotos: callPhotos,
+        // callPhotos: callPhotos,
         photos: photos,
         name: name,
         getArrName: getArrName,
