@@ -7,7 +7,7 @@ import {
   Typography,
   Stack,
 } from '@mui/material';
-import photosBogota from '../data/photosBogota.json';
+
 import { ProductListToolbar } from '../components/photo/photo-title';
 import { ProductCard } from '../components/photo/photo-card';
 import usePagination from './pagination';

@@ -13,12 +13,8 @@ import {
   Typography,
   Link,
 } from '@mui/material';
-// import profileImg from '../Data/nata_photo.jpg';
-import IconButton from '@mui/material/IconButton';
 
-import { ContactUs } from '../pages/ContactUs';
-
-const Dashboard = () => (
+const Index = () => (
   <>
     <Box
       // position="fixed"
@@ -105,4 +101,4 @@ const Dashboard = () => (
   </>
 );
 
-export default Dashboard;
+export default Index;
