@@ -27,7 +27,7 @@ function App() {
         <DashboardSidebar />
         <Routes>
           <Route path="/" element={[<Dashboard />, <PhotosCol />]} />
-          <Route path="/pages/index" element={[<Dashboard />, <PhotosCol />]} />
+          {/* <Route path="/pages/index" element={[<Dashboard />, <PhotosCol />]} /> */}
           <Route path="/pages/photoscol" element={<PhotosCol />} />
         </Routes>
         <Outlet />

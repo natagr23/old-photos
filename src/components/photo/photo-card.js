@@ -19,18 +19,6 @@ import { CardMedia, Modal, Toolbar } from '@mui/material';
 import OpenInFullIcon from '@mui/icons-material/OpenInFull';
 import CloseIcon from '@mui/icons-material/Close';
 
-// const style = {
-//   position: "absolute",
-//   top: "50%",
-//   left: "50%",
-//   transform: "translate(-50%, -50%)",
-//   width: 1300,
-//   bgcolor: "background.paper",
-//   border: "1px solid #6b34a6",
-//   boxShadow: 15,
-//   p: 4,
-// };
-
 export const ProductCard = ({ photo, ...rest }) => {
   const [open, setOpen] = useState(false);
   const handleOpen = () => setOpen(true);
@@ -146,10 +134,6 @@ export const ProductCard = ({ photo, ...rest }) => {
               display: 'flex',
             }}
           >
-            {/* <DownloadIcon /> */}
-            {/* <Typography color="textSecondary" display="inline" sx={{ pl: 1 }} variant="body2">
-            {photo.totalDownloads} Downloads
-          </Typography> */}
             <LinkIcon />
             <Link color="#6b34a6" href={photo.metadata} variant="body2">
               Source Link

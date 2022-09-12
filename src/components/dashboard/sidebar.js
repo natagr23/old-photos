@@ -33,12 +33,7 @@ function ResponsiveDrawer(props) {
 
   const drawer = (
     <>
-      <IconButton
-        color="secondary"
-        size="small"
-        component={Link}
-        to={'/pages/index'}
-      >
+      <IconButton color="secondary" size="small" component={Link} to={'/'}>
         <HomeIcon />
       </IconButton>
       <Toolbar
