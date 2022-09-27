@@ -13,7 +13,7 @@ import { ProductCard } from '../components/photo/photo-card';
 import usePagination from './pagination';
 import { Context } from '../context/Context';
 
-const PhotosCol = (props) => {
+const PhotosBogota = (props) => {
   const ctx = useContext(Context);
 
   let [page, setPage] = useState(1);
@@ -85,4 +85,4 @@ const PhotosCol = (props) => {
   );
 };
 
-export default PhotosCol;
+export default PhotosBogota;

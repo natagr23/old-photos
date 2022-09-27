@@ -3,54 +3,54 @@
     "id": 1,
     "name": "Bogota",
     "imageUrl": "https://source.unsplash.com/1600x900/?bogota",
-    "go": "../../pages/PhotosCol"
+    "go": "../../pages/PhotosBogota"
   },
   {
     "id": 2,
     "name": "Medellin",
     "imageUrl": "https://source.unsplash.com/1600x900/?medellin",
-    "go": "../../pages/PhotosCol"
+    "go": "../../pages/PhotosMedellin"
   },
   {
     "id": 3,
     "name": "Tunja",
     "imageUrl": "https://source.unsplash.com/1600x900/?tunja",
-    "go": "../../pages/PhotosCol"
+    "go": "../../pages/PhotosTunja"
   },
   {
     "id": 4,
     "name": "Villavicencio",
     "imageUrl": "https://source.unsplash.com/1600x900/?villavicencio",
-    "go": "../../pages/PhotosCol"
+    "go": "../../pages/PhotosVillavicencio"
   },
   {
     "id": 5,
     "name": "Barranquilla",
     "imageUrl": "https://source.unsplash.com/1600x900/?barranquilla",
-    "go": "../../pages/PhotosCol"
+    "go": "../../pages/PhotosBarranquilla"
   },
   {
     "id": 6,
     "name": "Pasto",
     "imageUrl": "https://source.unsplash.com/1600x900/?pasto",
-    "go": "../../pages/PhotosCol"
+    "go": "../../pages/PhotosPasto"
   },
   {
     "id": 7,
     "name": "Buenaventura",
     "imageUrl": "https://source.unsplash.com/1600x900/?buenaventura",
-    "go": "../../pages/PhotosCol"
+    "go": "../../pages/PhotosBuenaventura"
   },
   {
     "id": 8,
     "name": "Ibague",
     "imageUrl": "https://source.unsplash.com/1600x900/?ibague",
-    "go": "../../pages/PhotosCol"
+    "go": "../../pages/PhotosIbague"
   },
   {
     "id": 9,
     "name": "Choachi",
     "imageUrl": "https://source.unsplash.com/1600x900/?choachi",
-    "go": "../../pages/PhotosCol"
+    "go": "../../pages/PhotosChoachi"
   }
 ]

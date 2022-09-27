@@ -1,6 +1,14 @@
 import React, { useEffect } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import PhotosCol from './pages/PhotosCol';
+import PhotosBogota from './pages/PhotosBogota';
+import PhotosMedellin from './pages/PhotosMedellin';
+import PhotosTunja from './pages/PhotosTunja';
+import PhotosVillavicencio from './pages/PhotosVillavicencio';
+import PhotosBarranquilla from './pages/PhotosBarranquilla';
+import PhotosPasto from './pages/PhotosPasto';
+import PhotosBuenaventura from './pages/PhotosBuenaventura';
+import PhotosIbague from './pages/PhotosIbague';
+import PhotosChoachi from './pages/PhotosChoachi';
 import Index from './pages/index';
 import DashboardSidebar from './components/dashboard/sidebar';
 import { Outlet } from 'react-router-dom';
@@ -26,8 +34,25 @@ function App() {
       <ContextProvider>
         <DashboardSidebar />
         <Routes>
-          <Route path="/" element={[<Index />, <PhotosCol />]} />
-          <Route path="/pages/photoscol" element={<PhotosCol />} />
+          <Route path="/" element={[<Index />, <PhotosBogota />]} />
+          <Route path="/pages/photosBogota" element={<PhotosBogota />} />
+          <Route path="/pages/photosMedellin" element={<PhotosMedellin />} />
+          <Route path="/pages/photosTunja" element={<PhotosTunja />} />
+          <Route
+            path="/pages/photosVillavicencio"
+            element={<PhotosVillavicencio />}
+          />
+          <Route
+            path="/pages/photosBarranquilla"
+            element={<PhotosBarranquilla />}
+          />
+          <Route path="/pages/photosPasto" element={<PhotosPasto />} />
+          <Route
+            path="/pages/photosBuenaventura"
+            element={<PhotosBuenaventura />}
+          />
+          <Route path="/pages/photosIbague" element={<PhotosIbague />} />
+          <Route path="/pages/photosChoachi" element={<PhotosChoachi />} />
         </Routes>
         <Outlet />
       </ContextProvider>
