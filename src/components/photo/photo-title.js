@@ -15,10 +15,10 @@ export const ProductListToolbar = () => {
         background: 'rgb(255, 246, 241)',
       }}
     >
-      <Typography sx={{ m: 1 }} variant="h6">
-        Historical Photos from {`${ctx.name}`}
-        {/* - Fotos Históricas de{' '} {`${ctx.name}`} */}
-      </Typography>
+      {/* <Typography sx={{ m: 1 }} variant="h6">
+        Historical Photos from {`${ctx.name}`} */}
+      {/* - Fotos Históricas de{' '} {`${ctx.name}`} */}
+      {/* </Typography> */}
     </Box>
   );
 };

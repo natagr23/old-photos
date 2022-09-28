@@ -34,7 +34,13 @@ function App() {
       <ContextProvider>
         <DashboardSidebar />
         <Routes>
-          <Route path="/" element={[<Index />, <PhotosBogota />]} />
+          <Route
+            path="/"
+            element={[
+              <Index />,
+              // <PhotosBogota />
+            ]}
+          />
           <Route path="/pages/photosBogota" element={<PhotosBogota />} />
           <Route path="/pages/photosMedellin" element={<PhotosMedellin />} />
           <Route path="/pages/photosTunja" element={<PhotosTunja />} />
