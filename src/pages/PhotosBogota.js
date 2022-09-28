@@ -37,6 +37,9 @@ const PhotosBogota = (props) => {
           background: 'rgb(255, 246, 241)',
         }}
       >
+        <Typography sx={{ m: 1 }} variant="h6">
+          Fotos Históricas de Bogotá
+        </Typography>
         <Container>
           <ProductListToolbar />
 
