@@ -38,7 +38,7 @@ const PhotosPasto = (props) => {
         }}
       >
         <Typography sx={{ m: 1 }} variant="h6">
-          Fotos Históricas de Pasto
+          Fotos Antiguas de Pasto
         </Typography>
         <Container>
           <ProductListToolbar />

@@ -38,7 +38,7 @@ const PhotosVillavicencio = (props) => {
         }}
       >
         <Typography sx={{ m: 1 }} variant="h6">
-          Fotos Históricas de Villavicencio
+          Fotos Antiguas de Villavicencio
         </Typography>
         <Container>
           <ProductListToolbar />

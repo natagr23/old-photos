@@ -38,7 +38,7 @@ const PhotosChoachi = (props) => {
         }}
       >
         <Typography sx={{ m: 1 }} variant="h6">
-          Fotos Históricas de Choachí
+          Fotos Antiguas de Choachí
         </Typography>
         <Container>
           <ProductListToolbar />

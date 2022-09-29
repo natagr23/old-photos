@@ -38,7 +38,7 @@ const PhotosTunja = (props) => {
         }}
       >
         <Typography sx={{ m: 1 }} variant="h6">
-          Fotos Históricas de Tunja
+          Fotos Antiguas de Tunja
         </Typography>
         <Container>
           <ProductListToolbar />

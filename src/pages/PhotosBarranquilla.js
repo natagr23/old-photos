@@ -38,7 +38,7 @@ const PhotosBarranquilla = (props) => {
         }}
       >
         <Typography sx={{ m: 1 }} variant="h6">
-          Fotos Históricas de Barranquilla
+          Fotos Antiguas de Barranquilla
         </Typography>
         <Container>
           <ProductListToolbar />

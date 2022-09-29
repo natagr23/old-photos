@@ -38,7 +38,7 @@ const PhotosBuenaventura = (props) => {
         }}
       >
         <Typography sx={{ m: 1 }} variant="h6">
-          Fotos Históricas de Buenaventura
+          Fotos Antiguas de Buenaventura
         </Typography>
         <Container>
           <ProductListToolbar />

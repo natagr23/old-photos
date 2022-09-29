@@ -38,7 +38,7 @@ const PhotosMedellin = (props) => {
         }}
       >
         <Typography sx={{ m: 1 }} variant="h6">
-          Fotos Históricas de Medellín
+          Fotos Antiguas de Medellín
         </Typography>
         <Container>
           <ProductListToolbar />

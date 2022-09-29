@@ -38,7 +38,7 @@ const PhotosIbague = (props) => {
         }}
       >
         <Typography sx={{ m: 1 }} variant="h6">
-          Fotos Históricas de Ibagué
+          Fotos Antiguas de Ibagué
         </Typography>
         <Container>
           <ProductListToolbar />
