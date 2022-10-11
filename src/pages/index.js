@@ -40,7 +40,7 @@ const Index = () => (
                     programming in R. I leave you this wonderful catalog
                     belonging to the State Art Collections of Dresden, Museum of
                     Ethnology of Dresden, where you can find the photographs of
-                    Martin, Horst, who had the opportunity to live and travel
+                    Horst Martin, who had the opportunity to live and travel
                     through Colombia and other countries in Latin America.
                   </p>
                   <p>
@@ -50,8 +50,8 @@ const Index = () => (
                     Dresde, donde pude hacer mi tesis basada en programación en
                     R. Les dejo esta maravilloso catalogo perteneciente
                     Colecciones estatales de arte de Dresde y Museo de Etnología
-                    de Dresde, donde se encuentran las fotografías de Martin,
-                    Horst, quien tuvo la oportunidad de vivir y viajar por
+                    de Dresde, donde se encuentran las fotografías de Horst
+                    Martin, quien tuvo la oportunidad de vivir y viajar por
                     Colombia y otros paises de latinoamérica.
                   </p>
                 </CardContent>
