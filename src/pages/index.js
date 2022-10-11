@@ -31,7 +31,8 @@ const Index = () => (
               <Card sx={{ maxwidth: 300 }}>
                 <CardMedia />
                 <CardContent>
-                  <Typography variant="body2" color="text.secondary">
+                  <h1>Fotos antiguas de Colombia</h1>
+                  <p>
                     My name is Natalia Garcia, I love Web programming. I work
                     with React js, MUI, Javascript, HTML5 and CSS. I studied a
                     Master in Hydo Science and Engineering at the University of
@@ -41,8 +42,8 @@ const Index = () => (
                     Ethnology of Dresden, where you can find the photographs of
                     Martin, Horst, who had the opportunity to live and travel
                     through Colombia and other countries in Latin America.
-                  </Typography>
-                  <Typography variant="body2" color="text.secondary">
+                  </p>
+                  <p>
                     Mi nombre es Natalia García, me encanta la programación Web.
                     Manejo React js, MUI, Javascript, HTML5 y CSS. Estudié una
                     Maestría en Hidociencias e Ingeniería en la Universidad de
@@ -52,7 +53,7 @@ const Index = () => (
                     de Dresde, donde se encuentran las fotografías de Martin,
                     Horst, quien tuvo la oportunidad de vivir y viajar por
                     Colombia y otros paises de latinoamérica.
-                  </Typography>
+                  </p>
                 </CardContent>
                 <CardActions>
                   {/* <Button size="small">Share</Button>

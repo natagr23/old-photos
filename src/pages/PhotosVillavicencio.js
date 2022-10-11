@@ -37,9 +37,14 @@ const PhotosVillavicencio = (props) => {
           background: 'rgb(255, 246, 241)',
         }}
       >
-        <Typography sx={{ m: 1 }} variant="h6">
-          Fotos Antiguas de Villavicencio
-        </Typography>
+        <h1>Fotos Antiguas de Villavicencio</h1>
+        <p>
+          Esta es una colección de Fotos antiguas e históricas de Villavicencio.
+          Bienvenidos a este viaje en el tiempo a los años 1930 con Horst
+          Martin. Derechos reservados: Staatliche Kunstsammlungen Dresden,
+          Museum für Völkerkunde Dresden / Martin, Horst. License: Free access -
+          rights reserved.
+        </p>
         <Container>
           <ProductListToolbar />
 
