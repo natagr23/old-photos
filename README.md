@@ -6,6 +6,6 @@ video
 
 ## Live Demo:
 
-https://fotos-antiguas-de-colombia.onrender.com/pages/PhotosPasto
+https://fotos-antiguas-de-colombia.onrender.com/
 
 
